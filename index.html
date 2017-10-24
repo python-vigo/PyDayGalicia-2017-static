@@ -1,0 +1,513 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="gl">
+<head>
+    <meta charset="utf-8">
+    <title>PyDay Galicia 2017</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website do PyDay Galicia 2017. Evento anual da comunidade Python de Galicia. Conferencias, obradoiros, emprego, programación, comunidade.">
+    <meta name="author" content="Ivan Nieto <ivan.n.s@tuta.io>">
+    <meta name="keywords" content="python, programación, ">
+    <meta property="og:title" content="python, talleres, comunidad, empleo, pyday, vigo, galicia, raspberry, ai, inteligencia artificial, ml, machine learning, conferencias, django, deep learning, kubernetes, opencv, cubes, cubesviewer, blackbox">
+    <meta property="og:image" content="/static/images/cartel.png">
+    <meta property="og:description" content="Website do PyDay Galicia 2017. Evento anual da comunidade Python de Galicia. Conferencias, obradoiros, emprego, programación, comunidade.">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- CSS ================================================== -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800|Roboto:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/pydaygal.css">
+    
+</head>
+
+<body onload="setTimeout(()=>{$('.landing-cover').slideUp()}, 1000);$('.navbar-menu').css('margin-top', '0').css('visibility', 'visible').css('padding','0');" >
+
+
+    
+    <nav class="navbar fixed-top navbar-toggleable-sm navbar-menu">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+      </button>
+      <a class="navbar-brand hidden-md-up" href="/gl/">
+        <img src="/static/images/logo.svg" class="img-responsive" style="max-width: 50px">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <a class="navbar-brand nav-item hidden-sm-down" href="/gl/">
+            <img src="/static/images/logo.svg" class="img-responsive" style="max-width: 50px">
+          </a>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/gl/info/">Información do evento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/gl/#sponsors">Patrocinadores</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/gl/schedule/">Programa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/gl/registration/">Rexistro</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/gl/speakers/">Speakers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/gl/cfp/" alt="Call For Papers">CFP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/gl/multimedia/" alt="Multimedia">Multimedia</a>
+          </li>
+          <li class="nav-item hidden-md-up">
+            <a href="mailto:pydaygalicia@python-vigo.es" class="nav-link"> Contacta connosco</a>
+          </li>
+          <li class="nav-item hidden-md-up">
+            <a href="https://twitter.com/python_vigo" class="nav-link"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="nav-item hidden-md-up">
+            <a href="https://github.com/python-vigo" class="nav-link"><i class="fa fa-github"></i></a>
+          </li>
+          
+          
+        </ul>
+        <form action="/i18n/setlang/" method="post" class="form-inline justify-content-center hidden-md-up"><input type='hidden' name='csrfmiddlewaretoken' value='qtUuahcIZQaTN1QuRBbrOU9s9RYvA5lSNFo7eFnBrqwaTMgYC0PkVZcI2Im4Vkeg' />
+          <input name="next" type="hidden" value="/" />
+          <select name="language" class="form-control" onchange="this.form.submit()" style="text-transform: capitalize; width: auto !important;">
+          
+          
+          
+          
+              <option value="gl" selected="selected">
+                  galego
+              </option>
+          
+              <option value="es">
+                  español
+              </option>
+          
+        </select>
+        </form>
+      </div>
+    </nav>
+    
+
+    
+<div class="landing-cover">
+    <div class="col">
+        <div class="col-12 col-md-6 offset-md-3 col-lg-6 offset-lg-3" style="height:100vh;">
+            <img src="/static/images/logo.svg" class="img-fluid img-logo vertical-center">
+        </div>
+    </div>
+</div>
+<section id="home" class="section-bg">
+  <div class="container vertical-center">
+    <div class="col col-lg-8 offset-lg-2">
+      <div class="card text-center">
+        <div class="card-block">
+          <h1 class="card-title">¿Que é PyDay Galicia 2017?</h1>
+          <hr>
+          
+          <p class="card-text">
+            PyDay Galicia é a conferencia anual da comunidade Python galega,
+            que celebrará a súa segunda edición o <strong>10 de Xuño de 2017</strong>
+            nas instalacións do museo <strong>MARCO</strong>, en <strong>Vigo</strong>,
+            tras unha primeira edición exitosa, con moi boa acollida.
+          </p>
+          <p>A entrada do evento é totalmente de balde, fomentando así 
+            a difusión de coñecemento e a promoción da cultura tecnolóxica.
+          </p>
+          <p>¡Dispoñemos tamén dunha entrada de pago que inclúe comida
+            e lugar no que desfrutar dunha sesión de networking!</p>
+          <p class="card-text">
+            Como novidade nesta edición, contaremos con dúas pistas de conferencias,<br>
+            para todos os niveis, e obradoiros para tódalas idades sobre diversas tecnoloxías.
+          </p>
+          
+          <a href="/gl/info/" class="btn btn-primary">Información do evento</a>
+        </div>
+      </div>
+      <br><br><br>
+      <div class="text-center">
+        <a href="#sponsors" class="btn btn-primary text-center">¿Quen fai este evento posible?</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="sponsors">
+  <div class="container text-center">
+    <br>
+    <p>PATROCINADORES</p>
+    <hr>
+    <br>
+    <br>
+    
+    
+      
+      <a class="btn btn-primary btn-level">Ouro</a>
+      <br>
+      <br>
+      
+      
+      <ul class="sponsors-list" style="-webkit-padding-start: 0;">
+          
+          <li class="nav-item">
+              <a href="https://initios.com" target="_blank">
+                  <img src="/media/sponsor_files/initios_K3hYe14.png" title="Initios"
+                  alt="Initios" class="img-fluid
+                  
+                  sponsors-img-gold
+                  
+                  
+                  ">
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+              <a href="https://gradiant.org/" target="_blank">
+                  <img src="/media/sponsor_files/Logotipo-Gradiant_Principal_ZoNiDLJ.png" title="Gradiant"
+                  alt="Gradiant" class="img-fluid
+                  
+                  sponsors-img-gold
+                  
+                  
+                  sponsors-push-up">
+              </a>
+          </li>
+          
+          <div class="clearfix visible-xs"></div>
+          
+          
+          
+          <li class="nav-item">
+              <a href="https://www.empathybroker.com/" target="_blank">
+                  <img src="/media/sponsor_files/empathybroker-small.png" title="Empathy Broker"
+                  alt="Empathy Broker" class="img-fluid
+                  
+                  sponsors-img-gold
+                  
+                  
+                  ">
+              </a>
+          </li>
+          
+          
+          <div class="clearfix visible-sm"></div>
+          
+          
+        </ul>
+      
+      
+    
+      
+    
+      
+    
+      
+      <a class="btn btn-primary btn-level">Bronce</a>
+      <br>
+      <br>
+      
+      
+      <ul class="sponsors-list" style="-webkit-padding-start: 0;">
+          
+          <li class="nav-item">
+              <a href="http://www.opensistemas.com/" target="_blank">
+                  <img src="/media/sponsor_files/opensistemas_OZCBFmS.png" title="OpenSistemas"
+                  alt="OpenSistemas" class="img-fluid
+                  
+                  
+                  
+                  sponsors-img-bronze
+                  ">
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+              <a href="https://www.searchviu.com/en/" target="_blank">
+                  <img src="/media/sponsor_files/searchVIU_cTDgRX9.png" title="searchVIU"
+                  alt="searchVIU" class="img-fluid
+                  
+                  
+                  
+                  sponsors-img-bronze
+                  ">
+              </a>
+          </li>
+          
+          <div class="clearfix visible-xs"></div>
+          
+          
+          
+        </ul>
+      
+      
+    
+      
+    
+    <br>
+    <br>
+    <p>ORGANIZADORES</p>
+    <hr>
+    <br>
+    <br>
+    
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+        <ul class="sponsors-list" style="-webkit-padding-start: 0;">
+            
+            <li class="nav-item col">
+                <a href="https://python-vigo.es" target="_blank">
+                    <img src="/media/sponsor_files/pythonvigo_EoLOiX3.png" title="Python Vigo"
+                    alt="Python Vigo" class="img-fluid sponsors-img-org">
+                </a>
+            </li>
+            
+            
+            
+            <li class="nav-item col">
+                <a href="https://www.es.python.org/" target="_blank">
+                    <img src="/media/sponsor_files/pythonspain_nbcQLgc.png" title="Python España"
+                    alt="Python España" class="img-fluid sponsors-img-org">
+                </a>
+            </li>
+            
+            <div class="clearfix visible-xs"></div>
+            
+            
+            
+          </ul>
+        
+      
+    
+    <br>
+    <p>COLABORADORES</p>
+    <hr><br>
+    
+      
+      
+        
+      
+    
+      
+      
+        
+        <ul class="sponsors-list" style="-webkit-padding-start: 0;">
+            
+            <li class="nav-item col-6 col-md-4">
+                <a href="https://marcovigo.com" target="_blank">
+                    <img src="/media/sponsor_files/marco_txt_pos_O16TduU.jpg" title="MARCO"
+                    alt="MARCO" class="img-fluid sponsors-img-colab"
+                    >
+                </a>
+            </li>
+            
+            
+            
+            <li class="nav-item col-6 col-md-4">
+                <a href="https://entradas.ataquilla.com/" target="_blank">
+                    <img src="/media/sponsor_files/ataquilla-color_ApDygp0.png" title="ataquilla.com"
+                    alt="ataquilla.com" class="img-fluid sponsors-img-colab"
+                    >
+                </a>
+            </li>
+            
+            <div class="clearfix visible-xs"></div>
+            
+            
+            
+            <li class="nav-item col-6 col-md-4">
+                <a href="https://www.partyfiesta.com/es/" target="_blank">
+                    <img src="/media/sponsor_files/partyfiesta.png" title="Party Fiesta"
+                    alt="Party Fiesta" class="img-fluid sponsors-img-colab"
+                    >
+                </a>
+            </li>
+            
+            
+            <div class="clearfix visible-sm"></div>
+            
+            
+            <li class="nav-item col-6 col-md-4">
+                <a href="http://www.opsou.com/" target="_blank">
+                    <img src="/media/sponsor_files/logoOpsou_ziUnvI0.png" title="opsou"
+                    alt="opsou" class="img-fluid sponsors-img-colab"
+                    >
+                </a>
+            </li>
+            
+            <div class="clearfix visible-xs"></div>
+            
+            
+            
+            <li class="nav-item col-6 col-md-4">
+                <a href="http://vigotech.org/" target="_blank">
+                    <img src="/media/sponsor_files/Logo_AF__vertical-fondo-blanco.png" title="VigoTech Alliance"
+                    alt="VigoTech Alliance" class="img-fluid sponsors-img-colab"
+                    >
+                </a>
+            </li>
+            
+            
+            
+            <li class="nav-item col-6 col-md-4">
+                <a href="https://www.freewear.org/" target="_blank">
+                    <img src="/media/sponsor_files/freewear.png" title="freewear.org"
+                    alt="freewear.org" class="img-fluid sponsors-img-colab"
+                    >
+                </a>
+            </li>
+            
+            <div class="clearfix visible-xs"></div>
+            
+            
+            <div class="clearfix visible-sm"></div>
+            
+            
+            <li class="nav-item col-6 col-md-4">
+                <a href="http://www.danielcastelao.org/" target="_blank">
+                    <img src="/media/sponsor_files/logo-cast-transparente.png" title="CPR Daniel Castelao"
+                    alt="CPR Daniel Castelao" class="img-fluid sponsors-img-colab"
+                     style="heigth: 120px !important; max-heigth: 120px !important;">
+                </a>
+            </li>
+            
+            
+            
+            <li class="nav-item col-6 col-md-4">
+                <a href="http://adalab.es/" target="_blank">
+                    <img src="/media/sponsor_files/logo_adalab_80px.png" title="AdaLab"
+                    alt="AdaLab" class="img-fluid sponsors-img-colab"
+                    >
+                </a>
+            </li>
+            
+            <div class="clearfix visible-xs"></div>
+            
+            
+            
+            <li class="nav-item col-6 col-md-4">
+                <a href="http://teltek.es/" target="_blank">
+                    <img src="/media/sponsor_files/logo_green.jpg" title="TelTek"
+                    alt="TelTek" class="img-fluid sponsors-img-colab"
+                    >
+                </a>
+            </li>
+            
+            
+            <div class="clearfix visible-sm"></div>
+            
+            
+          </ul>
+        
+      
+    
+      
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+    <br>
+    <p>
+      ¿Queres ser sponsor?
+      <br>
+      <a class="btn btn-primary" href="mailto:pydaygalicia@python-vigo.es" target="_blank">pydaygalicia@python-vigo.es</a>
+    </p>
+    <br><br>
+    <h6>EDICIÓNS ANTERIORES</h6>
+    <p class="text-center indented">
+        <a class="btn btn-primary" href="https://python-vigo.github.io/pyday-2016/"
+        target="_blank">PyDay Galicia 2016</a>
+    </p>
+    <br><br>
+    <img src="/static/images/logo.svg" class="img-responsive" style="max-width: 300px">
+    <br><br>
+  </div>
+</section>
+
+
+
+    
+    <footer class="hidden-md-down">
+        <nav class="navbar navbar-toggleable-md navbar-light">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="mailto:pydaygalicia@python-vigo.es" class="nav-link"> Contacta connosco</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://twitter.com/python_vigo" class="nav-link"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/python-vigo" class="nav-link"><i class="fa fa-github"></i></a>
+            </li>
+          </ul>
+          <form action="/i18n/setlang/" method="post" class="form-inline"><input type='hidden' name='csrfmiddlewaretoken' value='qtUuahcIZQaTN1QuRBbrOU9s9RYvA5lSNFo7eFnBrqwaTMgYC0PkVZcI2Im4Vkeg' />
+            <input name="next" type="hidden" value="/" />
+            <select name="language" class="form-control" onchange="this.form.submit()" style="text-transform: capitalize; width: auto !important;">
+              
+              
+              
+              
+                  <option value="gl"  selected="selected">
+                      galego
+                  </option>
+              
+                  <option value="es" >
+                      español
+                  </option>
+              
+            </select>
+          </form>
+        </nav>
+    </footer>
+    
+
+
+<!-- JS ================================================== -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<script src="/static/js/bin/bundle.js"></script>
+
+
+</body>
+</html>

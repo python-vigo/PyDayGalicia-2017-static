@@ -1,0 +1,214 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>PyDay Galicia 2017</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website do PyDay Galicia 2017. Evento anual da comunidade Python de Galicia. Conferencias, obradoiros, emprego, programación, comunidade.">
+    <meta name="author" content="Ivan Nieto <ivan.n.s@tuta.io>">
+    <meta name="keywords" content="python, programación, ">
+    <meta property="og:title" content="python, talleres, comunidad, empleo, pyday, vigo, galicia, raspberry, ai, inteligencia artificial, ml, machine learning, conferencias, django, deep learning, kubernetes, opencv, cubes, cubesviewer, blackbox">
+    <meta property="og:image" content="/static/images/cartel.png">
+    <meta property="og:description" content="Website do PyDay Galicia 2017. Evento anual da comunidade Python de Galicia. Conferencias, obradoiros, emprego, programación, comunidade.">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- CSS ================================================== -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800|Roboto:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/pydaygal.css">
+    
+</head>
+
+<body onload="setTimeout(()=>{$('.landing-cover').slideUp()}, 1000);$('.navbar-menu').css('margin-top', '0').css('visibility', 'visible').css('padding','0');" >
+
+
+    
+    <nav class="navbar fixed-top navbar-toggleable-sm navbar-menu">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+      </button>
+      <a class="navbar-brand hidden-md-up" href="/es/">
+        <img src="/static/images/logo.svg" class="img-responsive" style="max-width: 50px">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <a class="navbar-brand nav-item hidden-sm-down" href="/es/">
+            <img src="/static/images/logo.svg" class="img-responsive" style="max-width: 50px">
+          </a>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/es/info/">Información del evento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/es/#sponsors">Patrocinadores</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/es/schedule/">Programa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/es/registration/">Registro</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/es/speakers/">Speakers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/es/cfp/" alt="Call For Papers">CFP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/es/multimedia/" alt="Multimedia">Multimedia</a>
+          </li>
+          <li class="nav-item hidden-md-up">
+            <a href="mailto:pydaygalicia@python-vigo.es" class="nav-link"> Contacta con nosotros</a>
+          </li>
+          <li class="nav-item hidden-md-up">
+            <a href="https://twitter.com/python_vigo" class="nav-link"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="nav-item hidden-md-up">
+            <a href="https://github.com/python-vigo" class="nav-link"><i class="fa fa-github"></i></a>
+          </li>
+          
+          
+        </ul>
+        <form action="/i18n/setlang/" method="post" class="form-inline justify-content-center hidden-md-up"><input type='hidden' name='csrfmiddlewaretoken' value='4TiL7WKSMr5gv84WpSUYrQFNbuIgCuPcWe8nBnqZm8tYzIM9a98mTRjZkqsQRYuv' />
+          <input name="next" type="hidden" value="/" />
+          <select name="language" class="form-control" onchange="this.form.submit()" style="text-transform: capitalize; width: auto !important;">
+          
+          
+          
+          
+              <option value="gl">
+                  galego
+              </option>
+          
+              <option value="es" selected="selected">
+                  español
+              </option>
+          
+        </select>
+        </form>
+      </div>
+    </nav>
+    
+
+    
+<section id="coc" class="section">
+  <div class="container text-center">
+    <div class="card text-center">
+      <div class="card-block">
+        
+    <h1>Código de conducta</h1>
+    <hr>
+    <p>PyDay Galicia es una conferencia hecha por la comunidad pensada
+      para la divulgación y colaboración dentro de la comunidad de desarrolladores.</p>
+    <p>Valoramos la participación de cada miembro de la comunidad Python
+      y queremos que todos los asistentes tengan una experiencia entretenida
+      y satisfactoria. Para ello, se espera que todos los asistentes muestren
+      respeto y cortesía hacia el resto durante la conferencia y todos los eventos
+      relacionados con ella, estén oficialmente auspiciados por PyDay Galicia o no.</p>
+    <p>En concreto, todos los delegados, disertantes, expositores y voluntarios que
+      tomen parte en actividades relacionadas con PyDay Galicia deberán acatar el
+      presente código de conducta. Los organizadores cuidarán del cumplimiento de
+      este código durante el evento.</p>
+    <p>Se entiende por acoso todo comentario ofensivo alusivo al sexo, preferencias
+      sexuales, discapacidades, aspecto físico, etnias y religiones; toda pornografía
+      en espacios públicos; toda intimidación deliberada, acecho o persecución;
+      todo acoso mediante fotografías o grabaciones; toda interrupción constante
+      de charlas u otras actividades; todo contacto físico inapropiado
+      y toda propuesta sexual no deseada.</p>
+    <p>Los participantes que sean apercibidos deberán desistir inmediatamente de su actitud.</p>
+    <p>Los expositores, las casetas o pabellones de patrocinadores o empresas
+      y actividades similares también están sujetas a la política antiacoso.
+      En particular, los expositores no deberían utilizar material o llevar
+      a cabo actividades sexistas. El personal de las casetas (incluyendo voluntarios)
+      no deberían utilizar uniformes o vestimentas sexistas, puesto que se crearía
+      un ambiente sexualizado.</p>
+    <p>Cuida tu lenguaje. Recuerda que las bromas sexistas, racistas y excluyentes
+      en general podrían ofender a otras personas. El lenguaje excesivamente soez y
+      las bromas ofensivas son inapropiadas en PyDay Galicia.</p>
+    <p>Si algún participante infringiera este código de conducta, la organización
+      podrá tomar las medidas que considere adecuadas, como la amonestación o la
+      expulsión sin derecho a reembolso.</p>
+    <h3>Información de contacto</h3>
+    <p>Si estás siendo objeto de acoso, notas que alguien está siendo acosado,
+      o tienes cualquier otra preocupación, por favor ponte en contacto con un
+      miembro del personal de la conferencia, que distinguirás por portar elementos 
+      identificativos.</p>
+    <p>Si se trata de una cuestión especialmente urgente,
+      dirígete a cualquiera de los integrantes de la organización para que te indiquen 
+      como proceder.</p>
+    <p>El personal de la conferencia ayudará gustosamente a los participantes
+      a que se pongan en contacto con el personal de seguridad del lugar o
+      la policía local, y proporcionará escolta o socorrerá de cualquier otra
+      forma a las víctimas de acoso para que puedan sentirse seguras durante el
+      desarrollo de la conferencia. Tu bienestar es una de nuestras prioridades.</p>
+    <p>Gracias por hacer de este un evento abierto a la comunidad y amistoso.</p>
+    <h3>Licencia</h3>
+    <p>Este Código de Conducta se basa en los siguientes códigos:</p>
+    <p>PyCon US 2013 
+      <a href='https://us.pycon.org/2013/about/code-of-conduct/'>
+      https://us.pycon.org/2013/about/code-of-conduct/</a></p>
+    <p>PyConAr 2012 
+      <a href='http://ar.pycon.org/2012/conference/diversity/'>
+      http://ar.pycon.org/2012/conference/diversity/</a></p>
+    <p>y está disponible bajo licencia Creative Commons Atribución 3.0 España.</p>
+    
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    
+    <footer class="hidden-md-down">
+        <nav class="navbar navbar-toggleable-md navbar-light">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="mailto:pydaygalicia@python-vigo.es" class="nav-link"> Contacta con nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://twitter.com/python_vigo" class="nav-link"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/python-vigo" class="nav-link"><i class="fa fa-github"></i></a>
+            </li>
+          </ul>
+          <form action="/i18n/setlang/" method="post" class="form-inline"><input type='hidden' name='csrfmiddlewaretoken' value='4TiL7WKSMr5gv84WpSUYrQFNbuIgCuPcWe8nBnqZm8tYzIM9a98mTRjZkqsQRYuv' />
+            <input name="next" type="hidden" value="/" />
+            <select name="language" class="form-control" onchange="this.form.submit()" style="text-transform: capitalize; width: auto !important;">
+              
+              
+              
+              
+                  <option value="gl" >
+                      galego
+                  </option>
+              
+                  <option value="es"  selected="selected">
+                      español
+                  </option>
+              
+            </select>
+          </form>
+        </nav>
+    </footer>
+    
+
+
+<!-- JS ================================================== -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<script src="/static/js/bin/bundle.js"></script>
+
+
+</body>
+</html>

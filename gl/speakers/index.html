@@ -1,0 +1,693 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="gl">
+<head>
+    <meta charset="utf-8">
+    <title>PyDay Galicia 2017</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website do PyDay Galicia 2017. Evento anual da comunidade Python de Galicia. Conferencias, obradoiros, emprego, programación, comunidade.">
+    <meta name="author" content="Ivan Nieto <ivan.n.s@tuta.io>">
+    <meta name="keywords" content="python, programación, ">
+    <meta property="og:title" content="python, talleres, comunidad, empleo, pyday, vigo, galicia, raspberry, ai, inteligencia artificial, ml, machine learning, conferencias, django, deep learning, kubernetes, opencv, cubes, cubesviewer, blackbox">
+    <meta property="og:image" content="/static/images/cartel.png">
+    <meta property="og:description" content="Website do PyDay Galicia 2017. Evento anual da comunidade Python de Galicia. Conferencias, obradoiros, emprego, programación, comunidade.">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- CSS ================================================== -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800|Roboto:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/pydaygal.css">
+    
+</head>
+
+<body onload="setTimeout(()=>{$('.landing-cover').slideUp()}, 1000);$('.navbar-menu').css('margin-top', '0').css('visibility', 'visible').css('padding','0');" >
+
+
+    
+    <nav class="navbar fixed-top navbar-toggleable-sm navbar-menu">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+      </button>
+      <a class="navbar-brand hidden-md-up" href="/gl/">
+        <img src="/static/images/logo.svg" class="img-responsive" style="max-width: 50px">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <a class="navbar-brand nav-item hidden-sm-down" href="/gl/">
+            <img src="/static/images/logo.svg" class="img-responsive" style="max-width: 50px">
+          </a>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/gl/info/">Información do evento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/gl/#sponsors">Patrocinadores</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/gl/schedule/">Programa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/gl/registration/">Rexistro</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/gl/speakers/">Speakers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/gl/cfp/" alt="Call For Papers">CFP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/gl/multimedia/" alt="Multimedia">Multimedia</a>
+          </li>
+          <li class="nav-item hidden-md-up">
+            <a href="mailto:pydaygalicia@python-vigo.es" class="nav-link"> Contacta connosco</a>
+          </li>
+          <li class="nav-item hidden-md-up">
+            <a href="https://twitter.com/python_vigo" class="nav-link"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="nav-item hidden-md-up">
+            <a href="https://github.com/python-vigo" class="nav-link"><i class="fa fa-github"></i></a>
+          </li>
+          
+          
+        </ul>
+        <form action="/i18n/setlang/" method="post" class="form-inline justify-content-center hidden-md-up"><input type='hidden' name='csrfmiddlewaretoken' value='Sm0UwvvaipWdcELUdwlkBhjHE2BCsLStSfDMI5UWp8WkK5Tgyx9lH6OrEJIiBq6a' />
+          <input name="next" type="hidden" value="/" />
+          <select name="language" class="form-control" onchange="this.form.submit()" style="text-transform: capitalize; width: auto !important;">
+          
+          
+          
+          
+              <option value="gl" selected="selected">
+                  galego
+              </option>
+          
+              <option value="es">
+                  español
+              </option>
+          
+        </select>
+        </form>
+      </div>
+    </nav>
+    
+
+    
+<section id="speakers">
+  <div class="section container">
+    <div style="text-align: center;margin:0;">
+        <div class="speakers-list row">
+        
+  
+    
+
+<div class="card-block col col-sm-6 col-md-4">
+    <article class="card depth--two">
+      <figure>
+        <div class="card__image">
+          <div class="img-overlay">
+            <p class="img-overlay-text">
+              
+            </p>
+          </div>
+          <img class="card-img" src="/media/speakers/peque-clara.jpg" alt="Clara Casas Castedo y Miguel Sánchez de León Peque">
+        </div>
+      </figure>
+      <div class="card__body">
+        <header class="card__primary-title">
+          <h5>Clara Casas Castedo y Miguel Sánchez de León Peque</h5>
+          <strong>Software Developers</strong>
+        </header>
+        <div class="card__supporting-text" style="background: white;">
+          
+          <strong>Python para MacGyvers</strong>
+        </div>
+        <div class="card__supporting-text">
+          <p class="hidden-sm-down"><p>"Ingenieros, chapuzas y reformas en general."</p></p>
+        </div>
+      </div>
+      <div class="card__actions">
+            
+            
+            
+            
+            
+            
+            
+            
+      </div>
+    </article>
+</div>
+
+  
+    
+
+<div class="card-block col col-sm-6 col-md-4">
+    <article class="card depth--two">
+      <figure>
+        <div class="card__image">
+          <div class="img-overlay">
+            <p class="img-overlay-text">
+              
+            </p>
+          </div>
+          <img class="card-img" src="/media/speakers/dsanchez.jpg" alt="Daniel Sánchez">
+        </div>
+      </figure>
+      <div class="card__body">
+        <header class="card__primary-title">
+          <h5>Daniel Sánchez</h5>
+          <strong></strong>
+        </header>
+        <div class="card__supporting-text" style="background: white;">
+          
+          <strong>Iniciación a Python!</strong>
+        </div>
+        <div class="card__supporting-text">
+          <p class="hidden-sm-down"><p>Informático de profesión y afición, entusiasta de Python, Linux y el software libre en general. Amplia experiencia en el ámbito público a nivel autonómico y estatal (sectores de Sanidad, Cultura, Pesca, ...) Habiendo pasado por  desarrollo y microinformática, ahora centrado en automatización de sistemas.</p></p>
+        </div>
+      </div>
+      <div class="card__actions">
+            
+            <a href="https://github.com/Daniel-at-github" alt="github" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>&nbsp;
+            
+            
+            
+            
+            
+            
+            
+      </div>
+    </article>
+</div>
+
+  
+    
+
+<div class="card-block col col-sm-6 col-md-4">
+    <article class="card depth--two">
+      <figure>
+        <div class="card__image">
+          <div class="img-overlay">
+            <p class="img-overlay-text">
+              
+            </p>
+          </div>
+          <img class="card-img" src="/media/speakers/ddelaiglesia.jpg" alt="David de la Iglesia">
+        </div>
+      </figure>
+      <div class="card__body">
+        <header class="card__primary-title">
+          <h5>David de la Iglesia</h5>
+          <strong>Software Developer Intern @ iCarto</strong>
+        </header>
+        <div class="card__supporting-text" style="background: white;">
+          
+          <strong>Ataques &quot;BlackBox&quot; contra sistemas de Machine Learning</strong>
+        </div>
+        <div class="card__supporting-text">
+          <p class="hidden-sm-down"><p>"Arquitecto técnico con vocación de programador, apasionado por la Inteligencia Artificial y el código en Python."</p></p>
+        </div>
+      </div>
+      <div class="card__actions">
+            
+            <a href="https://github.com/daavoo" alt="github" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>&nbsp;
+            
+            <a href="https://twitter.com/daviddelachurch" alt="twitter">
+              <i class="fa fa-twitter" target="_blank"></i>
+            </a>&nbsp;
+            
+            <a href="https://medium.com/@daviddelaiglesiacastro/" alt="blog">
+              <i class="fa fa-pencil-square-o" target="_blank"></i>
+            </a>&nbsp;
+            
+            
+            
+            
+            
+      </div>
+    </article>
+</div>
+
+  
+    
+
+<div class="card-block col col-sm-6 col-md-4">
+    <article class="card depth--two">
+      <figure>
+        <div class="card__image">
+          <div class="img-overlay">
+            <p class="img-overlay-text">
+              
+            </p>
+          </div>
+          <img class="card-img" src="/media/speakers/ismaelhasan.jpg" alt="Ismael Hasan">
+        </div>
+      </figure>
+      <div class="card__body">
+        <header class="card__primary-title">
+          <h5>Ismael Hasan</h5>
+          <strong>Support Engineer @ Elastic</strong>
+        </header>
+        <div class="card__supporting-text" style="background: white;">
+          
+          <strong>Elastic stack: Desde obtención de datos, hasta visualización y análisis</strong>
+        </div>
+        <div class="card__supporting-text">
+          <p class="hidden-sm-down"><p>"A lo largo de estos años he tocado distintos ámbitos del mundo del software: desarrollo de backend usando herramientas básicas, desarrollo de backend basado en productos, desarrollo de frontends, diseño y arquitectura de sistemas, investigación, soporte..."</p></p>
+        </div>
+      </div>
+      <div class="card__actions">
+            
+            
+            
+            
+            <a href="https://www.linkedin.com/in/ismaelhasan/" alt="email">
+              <i class="fa fa-address-card-o" target="_blank"></i>
+            </a>
+            
+            
+            
+            
+      </div>
+    </article>
+</div>
+
+  
+    
+
+<div class="card-block col col-sm-6 col-md-4">
+    <article class="card depth--two">
+      <figure>
+        <div class="card__image">
+          <div class="img-overlay">
+            <p class="img-overlay-text">
+              
+            </p>
+          </div>
+          <img class="card-img" src="/media/speakers/jsrois_xrSSoRH.jpg" alt="Javier Sánchez Rois">
+        </div>
+      </figure>
+      <div class="card__body">
+        <header class="card__primary-title">
+          <h5>Javier Sánchez Rois</h5>
+          <strong>Lead Software Engineer @ Gradiant</strong>
+        </header>
+        <div class="card__supporting-text" style="background: white;">
+          
+          <strong>Deep Learning para análisis de imágenes</strong>
+        </div>
+        <div class="card__supporting-text">
+          <p class="hidden-sm-down"><p>"En mi día a día tengo un pie en el mundo del Machine Learning y Computer Vision, pero también soy un apasionado del mundo del desarrollo de software, tratando de crear cultura XP con mis compañeros en mi organización."</p></p>
+        </div>
+      </div>
+      <div class="card__actions">
+            
+            
+            <a href="https://twitter.com/jsrois" alt="twitter">
+              <i class="fa fa-twitter" target="_blank"></i>
+            </a>&nbsp;
+            
+            
+            
+            
+            
+            
+      </div>
+    </article>
+</div>
+
+  
+    
+
+<div class="card-block col col-sm-6 col-md-4">
+    <article class="card depth--two">
+      <figure>
+        <div class="card__image">
+          <div class="img-overlay">
+            <p class="img-overlay-text">
+              
+            </p>
+          </div>
+          <img class="card-img" src="/media/speakers/jcorral.jpg" alt="José Corral">
+        </div>
+      </figure>
+      <div class="card__body">
+        <header class="card__primary-title">
+          <h5>José Corral</h5>
+          <strong>Full Stack Software Engineer, SysAdmin, Project Manager &amp; Husband</strong>
+        </header>
+        <div class="card__supporting-text" style="background: white;">
+          
+          <strong>Desplegando webapps con Django en Kubernetes</strong>
+        </div>
+        <div class="card__supporting-text">
+          <p class="hidden-sm-down"><p>"Profesional IT proactivo y polivalente (Arquitectura de Software, Cloud, Agile, Training...) que ama el desarrollo de productos, el desarrollo personal y el trabajo en equipo. </p>
+<p>Coordinador y colaborador en los grupos Agile Vigo y SysAdmin Galicia."</p></p>
+        </div>
+      </div>
+      <div class="card__actions">
+            
+            
+            <a href="https://twitter.com/jcleira" alt="twitter">
+              <i class="fa fa-twitter" target="_blank"></i>
+            </a>&nbsp;
+            
+            
+            
+            
+            
+            
+      </div>
+    </article>
+</div>
+
+  
+    
+
+<div class="card-block col col-sm-6 col-md-4">
+    <article class="card depth--two">
+      <figure>
+        <div class="card__image">
+          <div class="img-overlay">
+            <p class="img-overlay-text">
+              
+            </p>
+          </div>
+          <img class="card-img" src="/media/speakers/jjmontes.jpg" alt="José Juan Montes">
+        </div>
+      </figure>
+      <div class="card__body">
+        <header class="card__primary-title">
+          <h5>José Juan Montes</h5>
+          <strong>Lead Application Software Engineer  @ Centum RT</strong>
+        </header>
+        <div class="card__supporting-text" style="background: white;">
+          
+          <strong>Análisis y visualización de datos con Cubes y CubesViewer</strong>
+        </div>
+        <div class="card__supporting-text">
+          <p class="hidden-sm-down"><p>"Entusiasta de la informática en general. Actualmente diseña software para control de sensores y GIS, principalmente en Python."</p></p>
+        </div>
+      </div>
+      <div class="card__actions">
+            
+            <a href="https://github.com/jjmontesl" alt="github" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>&nbsp;
+            
+            <a href="https://twitter.com/jjmontes" alt="twitter">
+              <i class="fa fa-twitter" target="_blank"></i>
+            </a>&nbsp;
+            
+            <a href="http://inmensosofa.blogspot.com.es/" alt="blog">
+              <i class="fa fa-pencil-square-o" target="_blank"></i>
+            </a>&nbsp;
+            
+            
+            
+            
+            
+      </div>
+    </article>
+</div>
+
+  
+    
+
+<div class="card-block col col-sm-6 col-md-4">
+    <article class="card depth--two">
+      <figure>
+        <div class="card__image">
+          <div class="img-overlay">
+            <p class="img-overlay-text">
+              
+            </p>
+          </div>
+          <img class="card-img" src="/media/speakers/felix-miguel.jpg" alt="Miguel Gesteiro y Félix Gómez">
+        </div>
+      </figure>
+      <div class="card__body">
+        <header class="card__primary-title">
+          <h5>Miguel Gesteiro y Félix Gómez</h5>
+          <strong>Makers in progress...</strong>
+        </header>
+        <div class="card__supporting-text" style="background: white;">
+          
+          <a class="btn btn-workshop">
+            OBRADOIRO
+          </a>
+          <br><br>
+          
+          <strong>Controlando el mundo físico con Python y RaspberryPi</strong>
+        </div>
+        <div class="card__supporting-text">
+          <p class="hidden-sm-down"><p>"Nos gusta romper cosas. Y lo hacemos muy bien."</p></p>
+        </div>
+      </div>
+      <div class="card__actions">
+            
+            
+            <a href="https://twitter.com/mgesteiro" alt="twitter">
+              <i class="fa fa-twitter" target="_blank"></i>
+            </a>&nbsp;
+            
+            
+            
+            
+            <a href="https://twitter.com/felixgomezlopez" alt="twitter">
+              <i class="fa fa-twitter" target="_blank"></i>
+            </a>&nbsp;
+            
+            
+      </div>
+    </article>
+</div>
+
+  
+    
+
+<div class="card-block col col-sm-6 col-md-4">
+    <article class="card depth--two">
+      <figure>
+        <div class="card__image">
+          <div class="img-overlay">
+            <p class="img-overlay-text">
+              
+            </p>
+          </div>
+          <img class="card-img" src="/media/speakers/miguel-gonzalez.jpg" alt="Miguel González">
+        </div>
+      </figure>
+      <div class="card__body">
+        <header class="card__primary-title">
+          <h5>Miguel González</h5>
+          <strong>Engineer @ Initios Desarrollos</strong>
+        </header>
+        <div class="card__supporting-text" style="background: white;">
+          
+          <strong>DÃ³nde estÃ¡ mi Ã±</strong>
+        </div>
+        <div class="card__supporting-text">
+          <p class="hidden-sm-down"><p>"Se enamoró de Python en el año 2001 cuando tuvo que escoger entre Python 1 y Python 2. Es coorganizador de Python Vigo y actualmente miembro de la Junta de la Asociación Python España."</p></p>
+        </div>
+      </div>
+      <div class="card__actions">
+            
+            <a href="https://github.com/migonzalvar/" alt="github" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>&nbsp;
+            
+            <a href="https://twitter.com/migonzalvar/" alt="twitter">
+              <i class="fa fa-twitter" target="_blank"></i>
+            </a>&nbsp;
+            
+            
+            <a href="https://es.linkedin.com/in/migonzalvar" alt="email">
+              <i class="fa fa-address-card-o" target="_blank"></i>
+            </a>
+            
+            
+            
+            
+      </div>
+    </article>
+</div>
+
+  
+    
+
+<div class="card-block col col-sm-6 col-md-4">
+    <article class="card depth--two">
+      <figure>
+        <div class="card__image">
+          <div class="img-overlay">
+            <p class="img-overlay-text">
+              
+            </p>
+          </div>
+          <img class="card-img" src="/media/speakers/rsamaniego.png" alt="Ricardo Samaniego">
+        </div>
+      </figure>
+      <div class="card__body">
+        <header class="card__primary-title">
+          <h5>Ricardo Samaniego</h5>
+          <strong>I+D Project Manager @ Imatia</strong>
+        </header>
+        <div class="card__supporting-text" style="background: white;">
+          
+          <strong>OpenCV con Python</strong>
+        </div>
+        <div class="card__supporting-text">
+          <p class="hidden-sm-down"><p>"Cuenta con más de 10 años de experiencia profesional en proyectos I+D en las áreas de Inteligencia Artificial, Robótica y Visión Artificial."</p></p>
+        </div>
+      </div>
+      <div class="card__actions">
+            
+            
+            <a href="https://twitter.com/imatiainnova" alt="twitter">
+              <i class="fa fa-twitter" target="_blank"></i>
+            </a>&nbsp;
+            
+            
+            
+            
+            
+            
+      </div>
+    </article>
+</div>
+
+  
+    
+
+<div class="card-block col col-sm-6 col-md-4">
+    <article class="card depth--two">
+      <figure>
+        <div class="card__image">
+          <div class="img-overlay">
+            <p class="img-overlay-text">
+              
+            </p>
+          </div>
+          <img class="card-img" src="/media/speakers/yamila.png" alt="Yamila Moreno">
+        </div>
+      </figure>
+      <div class="card__body">
+        <header class="card__primary-title">
+          <h5>Yamila Moreno</h5>
+          <strong>Engineer @ Kaleidos</strong>
+        </header>
+        <div class="card__supporting-text" style="background: white;">
+          
+          <strong>Cicerón y las comunidades tecnológicas</strong>
+        </div>
+        <div class="card__supporting-text">
+          <p class="hidden-sm-down"><p>"En los últimos 5 años, ha co-fundado Kaleidos y ha sido un miembro muy activo de la comunidad Open Source: ha co-fundado la Asociación Python España, fundó PyLadies España, y ha organizado conferencias internacionales, así como talleres locales dirigidos a grupos infrarrepresentados. "</p></p>
+        </div>
+      </div>
+      <div class="card__actions">
+            
+            <a href="https://github.com/yamila-moreno" alt="github" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>&nbsp;
+            
+            <a href="https://twitter.com/yamila_moreno" alt="twitter">
+              <i class="fa fa-twitter" target="_blank"></i>
+            </a>&nbsp;
+            
+            <a href="http://moduslaborandi.net/" alt="blog">
+              <i class="fa fa-pencil-square-o" target="_blank"></i>
+            </a>&nbsp;
+            
+            
+            
+            
+            
+      </div>
+    </article>
+</div>
+
+  
+  <div class="card-block col-lg-4 col-xs-12 col-md-12">
+      <article class="card depth--two">
+        <figure>
+          <img  class="card-img" src="/static/images/who.png" alt="CFP" style="padding:50px;"/>
+        </figure>
+        <div class="card__body">
+          <header class="card__primary-title">
+            <h5 class="text-secondary text-normal text-small">¡Desvelaremos pouco a pouco ós nosos próximos poñentes!</h5>
+          </header>
+          <div class="card__supporting-text">
+            <p>¿Queres dar unha charla? Apúntate no CFP!</p>
+          </div>
+        </div>
+        <div class="card__actions">
+          <a class="btn btn-primary" href="/gl/cfp/">CALL FOR PAPERS</a>
+        </div>
+      </article>
+    </div>
+  </div>
+
+        </div>
+    </div>
+  </div>
+</section>
+
+
+    
+    <footer class="hidden-md-down">
+        <nav class="navbar navbar-toggleable-md navbar-light">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="mailto:pydaygalicia@python-vigo.es" class="nav-link"> Contacta connosco</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://twitter.com/python_vigo" class="nav-link"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/python-vigo" class="nav-link"><i class="fa fa-github"></i></a>
+            </li>
+          </ul>
+          <form action="/i18n/setlang/" method="post" class="form-inline"><input type='hidden' name='csrfmiddlewaretoken' value='Sm0UwvvaipWdcELUdwlkBhjHE2BCsLStSfDMI5UWp8WkK5Tgyx9lH6OrEJIiBq6a' />
+            <input name="next" type="hidden" value="/" />
+            <select name="language" class="form-control" onchange="this.form.submit()" style="text-transform: capitalize; width: auto !important;">
+              
+              
+              
+              
+                  <option value="gl"  selected="selected">
+                      galego
+                  </option>
+              
+                  <option value="es" >
+                      español
+                  </option>
+              
+            </select>
+          </form>
+        </nav>
+    </footer>
+    
+
+
+<!-- JS ================================================== -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<script src="/static/js/bin/bundle.js"></script>
+
+
+</body>
+</html>

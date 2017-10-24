@@ -1,0 +1,655 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>PyDay Galicia 2017</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website do PyDay Galicia 2017. Evento anual da comunidade Python de Galicia. Conferencias, obradoiros, emprego, programación, comunidade.">
+    <meta name="author" content="Ivan Nieto <ivan.n.s@tuta.io>">
+    <meta name="keywords" content="python, programación, ">
+    <meta property="og:title" content="python, talleres, comunidad, empleo, pyday, vigo, galicia, raspberry, ai, inteligencia artificial, ml, machine learning, conferencias, django, deep learning, kubernetes, opencv, cubes, cubesviewer, blackbox">
+    <meta property="og:image" content="/static/images/cartel.png">
+    <meta property="og:description" content="Website do PyDay Galicia 2017. Evento anual da comunidade Python de Galicia. Conferencias, obradoiros, emprego, programación, comunidade.">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- CSS ================================================== -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800|Roboto:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/pydaygal.css">
+    
+</head>
+
+<body onload="setTimeout(()=>{$('.landing-cover').slideUp()}, 1000);$('.navbar-menu').css('margin-top', '0').css('visibility', 'visible').css('padding','0');" >
+
+
+    
+    <nav class="navbar fixed-top navbar-toggleable-sm navbar-menu">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+      </button>
+      <a class="navbar-brand hidden-md-up" href="/es/">
+        <img src="/static/images/logo.svg" class="img-responsive" style="max-width: 50px">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <a class="navbar-brand nav-item hidden-sm-down" href="/es/">
+            <img src="/static/images/logo.svg" class="img-responsive" style="max-width: 50px">
+          </a>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/es/info/">Información del evento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/es/#sponsors">Patrocinadores</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/es/schedule/">Programa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/es/registration/">Registro</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/es/speakers/">Speakers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/es/cfp/" alt="Call For Papers">CFP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/es/multimedia/" alt="Multimedia">Multimedia</a>
+          </li>
+          <li class="nav-item hidden-md-up">
+            <a href="mailto:pydaygalicia@python-vigo.es" class="nav-link"> Contacta con nosotros</a>
+          </li>
+          <li class="nav-item hidden-md-up">
+            <a href="https://twitter.com/python_vigo" class="nav-link"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="nav-item hidden-md-up">
+            <a href="https://github.com/python-vigo" class="nav-link"><i class="fa fa-github"></i></a>
+          </li>
+          
+          
+        </ul>
+        <form action="/i18n/setlang/" method="post" class="form-inline justify-content-center hidden-md-up"><input type='hidden' name='csrfmiddlewaretoken' value='wfPcodTJf7GBQvSrcxustdBwPX5w0H7OoAFOSEzQPO4jU5AEXOIQVefIYTP6fbM7' />
+          <input name="next" type="hidden" value="/" />
+          <select name="language" class="form-control" onchange="this.form.submit()" style="text-transform: capitalize; width: auto !important;">
+          
+          
+          
+          
+              <option value="gl">
+                  galego
+              </option>
+          
+              <option value="es" selected="selected">
+                  español
+              </option>
+          
+        </select>
+        </form>
+      </div>
+    </nav>
+    
+
+    
+
+<section id="programa" class="vertical-center">
+<div class="container card">
+  <div class="card-block">
+  <div class="sch">
+    <div class="sch-container">
+
+          <h1 class="text-center" style="color: #006997 !important;"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;Programa</h1>
+          <hr>
+
+          <div class="row sch-row sch-thead">
+            <div class="col-xs-12 col-md-2">&nbsp;</div>
+            <div class="col sch-track sch-head"><p>Track 1</p><strong>Profesional</strong></div>
+            <div class="col sch-track sch-head"><p>Track 2</p><strong>Iniciación</strong></div>
+          </div>
+
+          <div class="row sch-row">
+            <div class="col-xs-12 col-md-2 sch-hora">
+              09:15 - 09:45
+            </div>
+
+            <div class="col text-center sch-event">
+              <p><strong>Registro</strong></p>
+            </div>
+          </div>
+
+          <div class="row sch-row">
+            <div class="col-xs-12 col-md-2 sch-hora">
+              09:45 - 10:00
+            </div>
+
+            <div class="col text-center sch-track">
+              <p><a class="btn btn-primary">TRACK 1</a></p>
+              <br>
+              <p><h6><strong>Presentación</strong></h6></p>
+
+            </div>
+          </div>
+
+
+          <div class="row sch-row">
+
+            <div class="col-xs-12 col-md-2 sch-hora">
+              10:05 - 10:50
+            </div>
+
+            <div class="col sch-track sch-track1">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <h6><strong>Ricardo Samaniego</strong></h6>
+                    <p>OpenCV con Python</p>
+                  
+                
+                  
+                
+            </div>
+
+            <div class="col sch-track sch-track2">
+                
+                  
+                
+                  
+                    <h6><strong>Daniel Sánchez</strong></h6>
+                    <p>Iniciación a Python!</p>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+            </div>
+
+          </div>
+
+          <!-- ********************************************* -->
+
+          <div class="row sch-row">
+
+            <div class="col-xs-12 col-md-2 sch-hora">
+              10:55 - 11:40
+            </div>
+
+            <div class="col sch-track sch-track1">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <h6><strong>Javier Sánchez Rois</strong></h6>
+                    <p>Deep Learning para análisis de imágenes</p>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+            </div>
+
+            <div class="col sch-track sch-track2">
+                
+                  
+                    <br>
+                    <h6><strong>Clara Casas Castedo y Miguel Sánchez de León Peque</strong></h6>
+                    <p>Python para MacGyvers</p>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+            </div>
+
+          </div>
+
+          <!-- ********************************************* -->
+
+          <div class="row sch-row">
+
+            <div class="col-xs-12 col-md-2 sch-hora">
+              11:45 - 12:15
+            </div>
+
+            <div class="col text-center sch-event">
+              <p><strong>Café</strong></p>
+            </div>
+
+          </div>
+
+          <!-- ********************************************* -->
+
+          <div class="row sch-row">
+
+            <div class="col-xs-12 col-md-2 sch-hora">
+              12:20 - 13:05
+            </div>
+
+            <div class="col sch-track sch-track1">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <h6><strong>Ismael Hasan</strong></h6>
+                    <p>Elastic stack: Desde obtención de datos, hasta visualización y análisis</p>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+            </div>
+
+            <div class="col sch-track sch-track2">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <h6><strong>Miguel González</strong></h6>
+                    <p>DÃ³nde estÃ¡ mi Ã±</p>
+                  
+                
+                  
+                
+                  
+                
+            </div>
+
+          </div>
+
+          <!-- ********************************************* -->
+
+          <div class="row sch-row">
+
+            <div class="col-xs-12 col-md-2 sch-hora">
+              13:10 - 13:55
+            </div>
+
+            <div class="col sch-track sch-track1">
+                
+                  
+                
+                  
+                
+                  
+                    <h6><strong>David de la Iglesia</strong></h6>
+                    <p>Ataques &quot;BlackBox&quot; contra sistemas de Machine Learning</p>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+            </div>
+
+            <div class="col sch-track sch-track2">
+                
+                  
+                  
+                
+                  
+                  
+                
+                  
+                  
+                
+                  
+                  
+                
+                  
+                  
+                
+                  
+                  
+                
+                  
+                  
+                    <h6><strong>José Juan Montes</strong></h6>
+                    <p>Automatización de Hogar con Home Assistant</p>
+                  
+                
+                  
+                  
+                
+                  
+                  
+                
+                  
+                  
+                
+                  
+                  
+                
+            </div>
+
+          </div>
+
+          <!-- ********************************************* -->
+
+          <div class="row sch-row">
+
+            <div class="col-xs-12 col-md-2 sch-hora">
+              14:00 - 16:00
+            </div>
+
+            <div class="col text-center sch-event">
+              <p><strong>Comida</strong></p>
+            </div>
+
+          </div>
+
+          <!-- ********************************************* -->
+
+          <div class="row sch-row">
+
+            <div class="col-xs-12 col-md-2 sch-hora">
+              16:05 - 16:50
+            </div>
+
+            <div class="col sch-track sch-track1">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <h6><strong>Yamila Moreno + AdaLab</strong></h6>
+                    <p>Cicerón y las comunidades tecnológicas + Creando Diversidad Digtal</p>
+                  
+                
+            </div>
+
+            <div class="col sch-track sch-track2">
+                    <a class="btn btn-primary">TALLER</a>
+                    <br>
+                    <h6><strong>Félix Gómez y Miguel Gesteiro</strong></h6>
+                    <p>Controlando el mundo físico con Python y RaspberryPi</p>
+            </div>
+          </div>
+
+          <!-- ********************************************* -->
+
+          <div class="row sch-row">
+
+            <div class="col-xs-12 col-md-2 sch-hora">
+              16:55 - 17:40
+            </div>
+
+            <div class="col sch-track sch-track1">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <h6><strong>José Juan Montes</strong></h6>
+                    <p>Análisis y visualización de datos con Cubes y CubesViewer</p>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+            </div>
+
+            <div class="col sch-track sch-track2">
+                <a class="btn btn-primary">TALLER</a>
+                <br>
+                <p>Controlando el mundo físico con Python y RaspberryPi</p>
+                <p><strong style="font-size: 12px">CONTINUACIÓN</strong></p>
+            </div>
+
+          </div>
+
+          <!-- ********************************************* -->
+
+          <div class="row sch-row">
+
+            <div class="col-xs-12 col-md-2 sch-hora">
+              17:40 - 18:25
+            </div>
+
+            <div class="col sch-track sch-track1">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <h6><strong>José Corral</strong></h6>
+                    <p>Desplegando webapps con Django en Kubernetes</p>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+            </div>
+
+            <div class="col sch-track sch-track2">
+                <a class="btn btn-primary">TALLER</a>
+                <br>
+                <p>Controlando el mundo físico con Python y RaspberryPi</p>
+                <p><strong style="font-size: 12px">CONTINUACIÓN</strong></p>
+            </div>
+
+          </div>
+
+          <!-- ********************************************* -->
+
+          <div class="row sch-row">
+
+            <div class="col-xs-12 col-md-2 sch-hora">
+              18:30 - 19:30
+            </div>
+
+            <div class="col text-center sch-event">
+              <p><strong>Lightning Talks / Cierre</strong></p>
+            </div>
+
+          </div>
+
+    </div>
+  </div>
+  </div>
+</div>
+</section>
+
+
+    
+    <footer class="hidden-md-down">
+        <nav class="navbar navbar-toggleable-md navbar-light">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="mailto:pydaygalicia@python-vigo.es" class="nav-link"> Contacta con nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://twitter.com/python_vigo" class="nav-link"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/python-vigo" class="nav-link"><i class="fa fa-github"></i></a>
+            </li>
+          </ul>
+          <form action="/i18n/setlang/" method="post" class="form-inline"><input type='hidden' name='csrfmiddlewaretoken' value='wfPcodTJf7GBQvSrcxustdBwPX5w0H7OoAFOSEzQPO4jU5AEXOIQVefIYTP6fbM7' />
+            <input name="next" type="hidden" value="/" />
+            <select name="language" class="form-control" onchange="this.form.submit()" style="text-transform: capitalize; width: auto !important;">
+              
+              
+              
+              
+                  <option value="gl" >
+                      galego
+                  </option>
+              
+                  <option value="es"  selected="selected">
+                      español
+                  </option>
+              
+            </select>
+          </form>
+        </nav>
+    </footer>
+    
+
+
+<!-- JS ================================================== -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<script src="/static/js/bin/bundle.js"></script>
+
+
+</body>
+</html>
